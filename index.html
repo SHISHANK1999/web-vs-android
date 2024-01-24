@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Batch vs MCA Poll</title>
+</head>
+<body>
+    <div class="poll-container">
+        <h2>Which do you prefer?</h2>
+        
+        <form id="pollForm">
+            <label>
+                <input type="radio" name="program"  value="batch">
+                ANDROID DEVLOPER
+            </label>
+
+            <label>
+                <input type="radio" name="program"  value="mca">
+                WEB DEVLOPER 
+            </label>
+
+            <button type="button" onclick="submitPoll()">Submit</button>
+        </form>
+
+        <div id="result">
+            <!-- Poll results will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
